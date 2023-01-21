@@ -34,7 +34,9 @@ var addToCache = function(request){
     return fetch(request).then(function (response) {
       console.log(response.url + " was cached");
       return cache.put(request, response);
-    });
+    	window.alert("message");
+		 alert("the site is now offline enabled");
+	 });
   });
 };
 
