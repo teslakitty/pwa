@@ -1,12 +1,11 @@
 {
-    "name": "Christine Dodrill",
-    "short_name": "Christine",
+    "name": "pwa-cat",
+    "short_name": "cat",
     "theme_color": "#ffcbe4",
     "background_color": "#fa99ca",
     "display": "standalone",
     "scope": "/",
-    "start_url": "https://christine.website/",
-    "description": "Blog and Resume for Christine Dodrill",
+    "description": "pwa",
     "orientation": "any",
     "icons": [
         {
