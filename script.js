@@ -50,5 +50,5 @@ var returnFromCache = function(request){
   });
 };
 
-
+console.log("the site is now available for offline yay! good luck have a good day");
 		
