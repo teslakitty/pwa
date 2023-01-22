@@ -12,8 +12,11 @@
 
 <script>
   function showAlert() {
-    alert ("the site is now available for offline yay! good luck have a good day :)");
-  }
+    function myMessage() {
+  para.innerHTML = "the site is now available for offline yay! good luck have a good day";
+  console.log("message appeared");
+}
+setTimeout(myMessage, 3000);
   </script>
 
 <img height="600" width="800" src="1.jpg">
@@ -23,3 +26,5 @@
 
 <title>pwa-cat</title>
 
+ alert ("the site is now available for offline yay! good luck have a good day:)");
+  }
