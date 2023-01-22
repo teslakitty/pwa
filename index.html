@@ -12,11 +12,8 @@
 
 <script>
   function showAlert() {
-    function myMessage() {
-  para.innerHTML = "the site is now available for offline yay! good luck have a good day";
-  console.log("message appeared");
-}
-setTimeout(myMessage, 3000);
+    alert ("the site is now available for offline yay! good luck have a good day :)");
+  }
   </script>
 
 <img height="600" width="800" src="1.jpg">
@@ -26,5 +23,21 @@ setTimeout(myMessage, 3000);
 
 <title>pwa-cat</title>
 
- alert ("the site is now available for offline yay! good luck have a good day:)");
-  }
+	
+<script>
+function sleep(ms) {
+  return new Promise(
+    resolve => setTimeout(resolve, ms)
+  );
+}
+
+async function delayedGreeting() {
+  console.log("Hello");
+  await sleep(2000);
+  console.log("World!");
+  await sleep(2000);
+  console.log("Goodbye!");
+}
+
+delayedGreeting();
+</script>
